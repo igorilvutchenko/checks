@@ -1,0 +1,92 @@
+body {
+	background-image: url(../img/doska.jpg);
+	background-size: 890px auto;
+	background-repeat: no-repeat;
+	
+	
+}
+
+
+.chessboard {
+	position:relative;
+	margin: 0;
+	margin: auto;
+}
+
+.checks {
+	display: inline-block;
+	position: absolute;;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	transform: translateX(-50%)translateY(-50%);
+	box-shadow: 5px 5px 15px rgba(0,0,0,1);
+}
+
+.checks--black {
+	background-color: #301d01;
+}
+
+.checks--white {
+	background-color: #f5d2a0;
+}
+
+.checks--row8 {
+	top: 100px;
+}
+
+.checks--row7 {
+	top: 195px;
+}
+
+.checks--row6 {
+	top: 295px;
+}
+.checks--row5 {
+	top: 395px;
+}
+.checks--row4 {
+	top: 495px;
+}
+
+.checks--row3 {
+	top: 595px;
+}
+
+.checks--row2 {
+	top: 695px;
+}
+
+.checks--row1 {
+	top: 795px;
+}
+
+.checks--columnA {
+	left:100px;
+}
+
+.checks--columnB {
+	left:195px;
+}
+
+.checks--columnC {
+	left:295px;
+}
+.checks--columnD {
+	left:395px;
+}
+.checks--columnE {
+	left:495px;
+}
+
+.checks--columnF {
+	left:595px
+}
+
+.checks--columnG {
+	left:695px;
+}
+
+.checks--columnH {
+	left:795px;
+}
